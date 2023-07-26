@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Oxygen:wght@300;400;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(17, 62, 63);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    margin: auto;
+    padding: 10px 90px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    margin: 4px;
+    font-size: 11px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(238, 245, 204);
+}
+.clear{
+    clear: both;
+}
+#logo{
+    padding: 40px 40px;
+    margin: 40px;
+    position: relative;
+    width: 30%;
+    font-size: 30px;
+}
+.manubar{
+    margin: auto;
+    padding: 10px 40px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+.manubar ul li{
+    list-style: none;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    margin: 30px;
+    font-size: 16px;
+    
+}
+.manubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 5px 25px;
+    border: 1px solid rgb(238, 245, 204);
+    border-width: 10px;
+    font-weight: 700;
+    color: rgb(17, 62, 63);
+    background-color: rgb(238, 245, 204);  
+}
+.container-box{
+    display: flex;
+}
+.container-left{
+    margin: 85px;
+    margin-top: 5px;
+    padding: 40px 20px;
+    flex-basis: 50%;
+    font-weight: 600;
+    font-size: 70px;
+
+}
+#a{
+    color: rgb(171, 86, 159);
+
+}
+#b{
+    color: rgb(227, 230, 184);
+
+}
+#c{
+    color: rgb(7, 227, 91);
+
+}
+#d{
+    color: rgb(47, 198, 248);
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+
+}
+.container-right{
+    margin: 80px;
+    padding: 40px 20px;
+    flex-basis: 50%;
+    font-weight: 400;
+    font-size: 20px;
+}
+#demo{
+    padding: 12px 50px;
+    border: 2px solid rgb(238, 245, 204);
+    font-weight: 700;
+    color: rgb(238, 245, 204);
+    background-color:  rgb(17, 62, 63);
+    font-size: 15px;  
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+}
+p{
+    color: aliceblue;
+}
+.end{
+    width: 100%;
+    height: 60px;
+    background-color: antiquewhite;
+}
